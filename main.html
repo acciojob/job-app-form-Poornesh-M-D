@@ -7,43 +7,48 @@
 </head>
 
 <body>
+	<form method="post">
+		<label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" id="name" required></br></br>
+		
+	    <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="email" type="email" required></br></br>
+	       
+	    <label>Gender:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label for="male">Male</label>
+		<input id="male" name="gender" type="radio" required>
+
+		<label for="female">Female</label>
+		<input id="female" name="gender" type="radio" required>
+
+		<label for="other">Other</label>
+		<input id="other" name="gender" type="radio" required></br></br>
+		
+		<label for="laptop" name="laptop"></label>
+	        Laptop Brands
+			<select id="laptop" required>
+				<option id="laptop" value="asus">Asus</option>
+				<option id="laptop" value="hp">HP</option>
+				<option id="laptop" value="apple">Apple</option>
+	        </select>
+            </br></br>
+            <label for="age">Age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        <input id="age" type="number" required></br></br>
+        
+            <label for="dob">DOB</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input id="dob" type="date" required></br></br>
+			
+            <label for="password">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input id="password" type="password"  required></br></br>
+			
+	        <label for="portfolio">Portfolio</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input id="portfolio" type="url" required></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	        <button id="button" type="submit">Submit</button>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
-</script>
-<form>
-	<label for="fname">Name</label>
-	<br>
-	<input type="text" id="name" name="name" value="">
-	<br>
-	<label for="email">Email</label>
-	<br>
-	<input type="email" id="email" name="email" value="">
-	<br>
-	<label for="gender">Gender</label>
-	<br>
-	<input type="radio" name="gender" value="male">Male 
-	<input type="radio" name="gender" value="Female">Female
-	<br>
-	<label for="laptop">Laptop brands</label>
-	<br>
-	<input type="radio" name="laptop" value="male">Apple 
-	<input type="radio" name="laptop" value="Female">Asus
-	<input type="radio" name="laptop" value="laptop">HP
-	<br>
-	<label for="age">Age</label>
-	<input type="age" id="age" name="age" value="">
-	<br>
-	<label for="dob">DOB</label>
-	<input type="dob" id="dob" name="dob" value="">
-	<br>
-	<label for="password">password</label>
-	<input type="password" id="password" name="password" value="">
-	<br>
-	<br>
-	<button>Submit</button>
+    </script>
 
-
-</form>
 </body>
 
 </html>
